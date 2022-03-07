@@ -21,3 +21,13 @@ spec:
             cpu: "100m"
         ports:
         - containerPort: 80
+        #volumeMounts:
+        #- name: homepage
+        #  mountPath: "/var/www/html"
+      #volumes:
+      #  - name: homepage
+      #    configMap: 
+      #      name: homepage
+      #      items:
+      #      - key: index.html
+      #        path: index.html
